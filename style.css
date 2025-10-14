@@ -71,6 +71,21 @@ body {
     /* ötlet: oszlopok számának beállítása, jobb reszponzivitás */
 }
 
+@media (hover: hover) {
+    body {
+        background-color: steelblue !important;
+    }
+
+    
+}
+
+@media (hover: none) {
+    body {
+        background-color: rgb(47, 0, 255) !important;
+    }
+
+}
+
 .service-item1:hover {
     transform: scale(1.03);
     transition-duration: 0.4s;
@@ -87,6 +102,7 @@ body {
     transform: scale(1.03);
     transition-duration: 0.4s;
     background-color: rgb(219, 219, 219);
+
 }
 
 .service-item1 {
@@ -268,6 +284,7 @@ body {
 
     .header {
         padding: 20px;
+        pointer-events: visibleStroke;
     }
 
     .services-grid,
